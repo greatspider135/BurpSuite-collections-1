@@ -4,7 +4,11 @@
 
 > 所有的汉化或者使用burpsuite都是在你配置好了Java环境的前提下！！！[相关教程](./books/如何在64位Windows%2010下安装java开发环境.pdf)  
 
-> 本项目仅用于burpsuite插件相关学习研究使用！不再提供破解版！项目已经被burp官方提交到GitHub的DMCA了，删除了破解相关文件,如有需要请前往[博客](https://mrxn.net/index.php?keyword=burpsuite) 下载最新[burpsuite_pro_v2020.11.3.jar&BurpSuiteLoader.jar download](https://mrxn.net/hacktools/665.html)  
+> 最新版（202212之后）~~激活参考这个[项目](https://github.com/h3110w0r1d-y/BurpLoaderKeygen) 自己解决，本项目不提供~~
+
+> 新版burp（202209之后）~~激活参考scz大佬的方法：[地址](https://www.52pojie.cn/thread-1687434-1-1.html)~~
+
+> ~~本项目仅用于burpsuite插件相关学习研究使用！不再提供破解版！项目已经被burp官方提交到GitHub的DMCA了，删除了破解相关文件,如有需要请前往[博客](https://mrxn.net/index.php?keyword=burpsuite) 下载最新[burpsuite_pro_v2020.11.3.jar&BurpSuiteLoader.jar download](https://mrxn.net/hacktools/665.html)~~
 
 [在 Mac 下制作成 APP 放在 dock 里一键启动](./mac_app.md)  
 
@@ -103,6 +107,30 @@
 
 > plugins目录下新增[awesome-burp-extensions的翻译版本](./plugins/awesome-burp-extensions)  
 
+- [Galaxy: HTTP请求&响应全加密加签 场景下，高效的对明文报文查看、编辑和扫描](https://github.com/outlaws-bai/Galaxy)
+- [BurpAppletPentester: 微信小程序Wx_SessionKey加解密插件](https://github.com/mrknow001/BurpAppletPentester)
+- [Burpy: 基于python的前端加解密解决方案](https://github.com/mr-m0nst3r/Burpy)
+- [interactsh-collaborator: Interact.sh反链平台的burp插件](https://github.com/wdahlenburg/interactsh-collaborator)
+- **burpsuite_hack** --- 被动代理扫描插件，可检测SQL注入、SSRF漏洞 [源处](https://github.com/depycode/burpsuite_hack)
+- **BypassPro** --- 对权限绕过自动化bypass的burpsuite插件 [源处](https://github.com/0x727/BypassPro)
+- **burp-vps-proxy** --- 在大多数的云服务上自动创建和删除一个上游SOCKS5代理并自动应用的插件 [源处](https://github.com/d3mondev/burp-vps-proxy)
+- **CustomCrypto** --- Burp自定义加解密插件 [源处](https://github.com/dreamncn/CustomCrypto)
+- **npscrack** --- npscrack：蓝队利器、溯源反制、NPS 漏洞利用、NPS exp、NPS poc、一键利用的BurpSuite插件 [源处](https://github.com/weishen250/npscrack)
+- **OneScan** --- 一个递归目录扫描的BurpSuite插件 [源处](https://github.com/vaycore/OneScan)
+- **OutLook** --- 一款OutLook信息收集工具，在已登录Outlook账号后，可以使用该  插件自动爬取所有联系人的信息 [源处](https://github.com/KrystianLi/OutLook)
+- **passive-scan-client-plus** --- passive-scan-client 维护分支 [源处](https://github.com/winezer0/passive-scan-client-plus)
+- **BpScan** --- 一款用于辅助渗透测试工程师日常渗透测试的Burp被动漏扫插件(SpringSpiderScan、Log4jScan和FastJsonScan) [源处](https://github.com/EASY233/BpScan)
+- **BurpCRLFScan** --- 使用java编写的CRLF-Injection-burp被动扫描插件 [源处](https://github.com/A0WaQ4/BurpCRLFScan)
+- **JsonDetect** --- 支持被动扫描json，根据不同json库的特性识别出相应的json依赖库的burp插件 [源处](https://github.com/a1phaboy/JsonDetect)
+- **autoDecoder** --- 根据自定义来达到对数据包的处理（适用于加解密、爆破等），类似mitmproxy的burp插件 [源处](https://github.com/f0ng/autoDecoder)
+- **burp-text4shell** --- 用于CVE-2022-42889：Text4Shell 漏洞扫描burp插件[源处](https://github.com/silentsignal/burp-text4shell)
+- **sweetPotato** --- 一款用于在burpsuite 中自动递归发现关注的域名资产和额外的流量检测插件 [源处](https://github.com/z2p/sweetPotato)
+- **xia_Liao** --- 一款用于在burpsuite 快速生成 姓名、手机号、身份证、统一社会信用代码、组织机构代码、银行卡，以及各类web语言的hello world输出插件 [源处](https://github.com/smxiazi/xia_Liao)
+- **base64encode** --- 一款支持burpsuite POST数据包base64编码插件 [源处](https://github.com/handbye/base64encode)
+- **HackTools** --- 一款支持编码、加解密、杀软查询和文本处理的 burp插件 [源处](https://github.com/Vicl1fe/HackTools)
+- **RouteVulScan** --- 递归式被动检测脆弱路径的burp插件[源处](https://github.com/F6JO/RouteVulScan)
+- **fastjson-exp** --- fastjson利用，burp插件。 支持出网 jndi利用检测，不出网 tomcat、spring回显，哥斯拉内存马，回显利用链为dhcp、ibatis、c3p0，内存马支持tomcat89[源处](https://github.com/skisw/fastjson-exp)
+- **burp-awesome-tls** --- burp-awesome-tls：修复Burp Suite可怕的TLS堆栈并伪造任何浏览器指纹 [源处](https://github.com/sleeyax/burp-awesome-tls)
 - **JustC2file** --- Malleable C2 Profiles生成器；可以通过Burp代理选中请求，生成Cobalt Strike的profile文件(CSprofile) [源处](https://github.com/Peithon/JustC2file)
 - **SpringScan** --- Spring Core RCE 系列检测[源处](https://github.com/metaStor/SpringScan)
 - **captcha-killer-modified** --- captcha-killer的修改版，主要用于验证码爆破，适配新版Burpsuite，支持 dddocr 调用 [源处](https://github.com/f0ng/captcha-killer-modified)
@@ -217,6 +245,9 @@ Burp Suite新手指南 https://www.freebuf.com/articles/web/100377.html
 还有项目里面的books目录:  [**burpsuite实战指南.pdf等书籍**](https://github.com/Mr-xn/Burp-Suite-collections/tree/master/books)
 
 Burpsuite 官方文档的中文版：[项目地址](https://github.com/yw9381/Burp_Suite_Doc_zh_cn)
+
+- [编写burp插件实现数据包自定义修改](./books/编写burp插件实现数据包自定义修改.html)
+- 
 
 #### Tips
 
